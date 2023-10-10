@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Метаданные -->
+  <meta charSet="UTF-8">
+  <meta name ="author" content= "Александр Кошевой"/>
+  <meta name ="desctiption" content ="Меню для ГОРЯЧИХ КУРОЧЕК"/>
+  <link rel="shortcut icon" href="img/favicons/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <br><table id="menu" border="5" cellpadding="10">
+      <tr>
+        <th colspan ='4'><em> МЕНЮ ГОРЯЧИХ КУРОЧЕК</em></th>
+      </tr>
+      <tr>
+        <th>Сочная курочка гриль</th>
+        <th>Пикантый цыплёнок</th>
+        <th>Куриные ножки с овощами</th>
+        <th>Вегетарианская курочка в кляре</th>
+      </tr>
+      <tr>
+        <td rowspan ='2'>1200р</td>
+        <td rowspan ='2'>900р</td>
+        <td rowspan ='2'>850р</td>
+        <td rowspan ='2'>1110р</td>
+      </tr>
+      <tr> 
+      </tr>
+      <tr> 
+        <td>3500ккал, бафы - сытость, умиротворение</td>
+        <td>2000ккал, бафы - насыщение, игривость</td>
+        <td>2600ккал, баф - полезное питание</td>
+        <td>300ккал, бафы - сытость, чувство обманутости</td>
+      </tr>
+    </table>
+  </header>
+
+  <main>                                          <!--Оформление  заказа-->
+    <form>
+    <center><fieldset>
+      <legend><b> Оформляем ваш заказ..</b></legend>
+
+      <label><strong>Когда привезти ваш заказ?</strong><br></label>
+      <input type="time">
+
+      <br><label><br><strong>Выбери своего бойца</strong><br></label>
+      <select>
+        <optgroup label="Даже звучит аппетитно...">
+          <option>Сочная курочка гриль</option>
+          <option>Пикантый цыплёнок</option>
+          <option>Куриные ножки с овощами</option> 
+        <optgroup label="Мы вас не осуждаем..">
+          <option>Вегетарианская курочка в кляре</option>
+        </optgroup>
+      </select>
+      
+      <br><label><br><strong>Укажите свой адрес</strong></label>
+      <input type="text">
+      
+      
+      <br><label><strong>Ускорить доставку? (150р)</strong></label>
+      <input type="checkbox"><br>
+
+      <br><button>Отправить заявку</button>
+    </fieldset></center>
+  </form>
+  </main> 
+</body>
+</html>
