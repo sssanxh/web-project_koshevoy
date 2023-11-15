@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: "Fixedsys";
+    src: url(css/Fixedsys.ttf)
+    
+}
+
+body {
+    background: linear-gradient(#e9a514, #5f2409) fixed;
+    background-size: cover;
+  }
+
+caption {
+    font-size:35px;
+    font-style: italic;
+    font-family: Fixedsys;
+    padding: 20px;
+}
+
+#menu { /* селектор id */
+    text-align: center;
+    width: 100%;
+    background: rgb(48,213,200);
+    color: rgb(0,0,0);
+}
+
+
+
+legend {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff
+
+}
+
+main {
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 50px;
+    background: rgb(48,213,200);
+    text-align: center;
+    width: 30%;
+}
+
+.basement { /* селектор class */
+    background-color: rgb(48,213,200);
+    margin-top: 45px;
+    text-align: center;
+}
+
+label {          
+    font-size: 20px;
+}
+
+th,td {
+    font-family: Fixedsys;
+}
+
+a[href] {
+    font-family: Fixedsys;
+    text-align: center;
+    margin: 20px;
+}
+
+input[type = time] {
+    background-color: rgb(37, 172, 161);
+    font-family: Fixedsys;
+}
+
+input[type = text] {
+    background-color: rgb(172, 147, 37);
+    font-family: Fixedsys;
+}
+
+input[type = checkbox] {
+    background-color: rgb(50, 234, 218);
+    font-family: Fixedsys;
+}
+
+select {
+    background-color: rgb(38, 228, 212);
+    font-family: Fixedsys;
+    padding: 5px;
+    margin: 5px;
+}
