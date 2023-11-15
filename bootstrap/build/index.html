@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Метаданные -->
+  <meta charSet="UTF-8">
+  <meta name ="author" content= "Александр Кошевой"/>
+  <meta name ="desctiption" content ="Купить курочку"/>
+  <link rel="shortcut icon" href="img/favicons/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>ВЕБ</title>
+
+    
+</head>
+<body>
+  <!--Оформление шапки сайта-->
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid bg-light">
+        <a class="navbar-brand">ГОРЯЧИЕ КУРОЧКИ.РФ</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Сделать заказ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Связаться с директором</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Информация
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Карта наших ресторанов</a></li>
+                    <li><a class="dropdown-item" href="#">Документация по ГОСТУ</a></li>
+                    <li><a class="dropdown-item" href="#">Оставить отзыв</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+              Войти!
+            </button>
+
+          <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Аутенти</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">ТУТ</span>
+                    <input type="text" class="form-control" placeholder="Введите логин" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">А СЮДА</span>
+                    <input type="text" class="form-control" placeholder="Введите пароль" aria-describedby="basic-addon2">
+                  </div>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light text-secondary">Войти</button>
+                  <button type="button" class="btn btn-secondary">Зарегистрироваться</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Навигация -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html"> Главная </a></li>
+    </ol>
+    <li class="breadcrumb-item"><a href="index2.html"> О НАС </a></li>
+  </nav>
+ </header>
+
+
+ <!-- Карусель -->
+ <div id="carousel" class="carousel slide">
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="img/chiсken1.png" height="500px" class="d-block w-100">
+          <h2> Сочная курочка по Сахалински</h2>
+      </div>
+      <div class="carousel-item">
+          <img src="img/chiсken2.png" height="500px" class="d-block w-100">
+          <h2> Горячая обжарка</h2>
+      </div>
+      <div class="carousel-item">
+          <img src="img/chiсken3.png" height="500px" class="d-block w-100">
+          <h2> Ножки с овощами</h2>
+      </div>
+      <div class="carousel-item">
+          <img src="img/chiсken4.png" height="500px" class="d-block w-100">
+          <h2> Анивские дети в кляре</h2>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="visually-showed">Prev</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-showed">Next</span>
+  </button>
+</div>
+
+<!-- карточки -->
+<section class="section">
+  <h2> ОТЗЫВЫ </h2>
+
+  <div class="card">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Буду заказывать ещё.</li>
+      <li class="list-group-item">Божественно.</li>
+      <li class="list-group-item">Я в шоке!</li>
+      <li class="list-group-item">Никогда не пробовал такой вкусной курицы..</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Нам понравилось!</h5>
+      <p class="card-text">Заказывали с мужем тут немного курочки порадовать наших детей, так они наелись и целый день были счастливы!!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">ЭТО ПРОСТО НЕЧТО</h5>
+      <p class="card-text">Насколько же я был в шоке, когда впервые попробовал "Анивских детей", этот хруст, неповторимый аромат, попробуйте!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Кто-же знал, что идеальная курица была так близко?</h5>
+      <p class="card-text">Целый год я осматривал весь город в поиске хороших заведений, но везде было что-то не то. Я счастлив, что наконец обнаружил это прекрасное место, точно лучшая курочка в городе.</p>
+    </div>
+</section>
+  <!--Подвал c вымышленной почтой-->
+ <footer>
+  Почта для деловых предложений: <em>hotchicks@mail.com</em>
+ </footer>
+</body>
+</html>
