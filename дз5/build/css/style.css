@@ -1,0 +1,33 @@
+
+#special{
+    background-color: yellow;
+}
+
+.alert{
+    border: 1px solid black;
+}
+
+.stop.alert{
+    background-color: red;
+}
+
+.go.alert{
+    background-color: green;
+} 
+
+ul > li:first-child{
+    background-color: blue;
+}
+
+div.container h1{
+    color: blue;
+}
+
+div.container h2{
+    color: blue;
+    background-color: white;
+}
+
+div.container #txt{
+    font-size: 200%;
+}
