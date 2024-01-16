@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Метаданные -->
+  <meta charSet="UTF-8">
+  <meta name ="author" content= "Александр Кошевой"/>
+  <meta name ="desctiption" content ="Меню для ГОРЯЧИХ КУРОЧЕК"/>
+  <link rel="shortcut icon" href="img/favicons/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- внешний стиль через файл css-->
+    <title>Заказ курочки</title>
+
+</head>
+<body>
+  <header>
+    <section id = 'section_1'>
+      <div id = 'one'>
+        <h1> Горячие курочки.рф </h1>
+      </div>
+      <div id = 'two'>
+        <h1> Невероятное наслаждение </h1>
+      </div>
+    </section>
+  </header>
+  
+  <main id = 'main_'> 
+    <section id = 'section_2'>
+      <br><table border="5" cellpadding="10"> <!--селектор ID через #menu-->
+        <tr>    
+          <th colspan ='4'"><em> МЕНЮ ГОРЯЧИХ КУРОЧЕК</em></th>
+        </tr>
+        <tr>
+          <th>Сочная курочка гриль</th> <!--оформление через встроенный стиль css-->
+          <th>Пикантый цыплёнок</th>
+          <th>Куриные ножки с овощами</th>
+          <th>Вегетарианская курочка в кляре</th>
+        </tr>
+        <tr>
+          <td rowspan ='2'>1200р</td>
+          <td rowspan ='2'>900р</td>
+          <td rowspan ='2'>850р</td>
+          <td rowspan ='2'>1110р</td>
+        </tr>
+        <tr> 
+        </tr>
+        <tr> 
+          <td>3500ккал, бафы - сытость, умиротворение</td>
+          <td>2000ккал, бафы - насыщение, игривость</td>
+          <td>2600ккал, баф - полезное питание</td>
+          <td>300ккал, бафы - сытость, чувство обманутости</td>
+        </tr>
+      </table>
+    </section>
+    
+    <!--Оформление  заказа-->
+    <form>
+    <fieldset id = "fieldset_">
+      <legend><b> Оформляем ваш заказ..</b></legend>
+
+      <label><strong>Когда привезти ваш заказ?</strong><br></label>
+      <input type="time">
+
+      <br><label><br><strong>Выбери своего бойца</strong><br></label>
+      <select>
+        <optgroup label="Даже звучит аппетитно..."> <!--селектор TYPE выполнен через label-->
+          <option>Сочная курочка гриль</option>
+          <option>Пикантый цыплёнок</option>
+          <option>Куриные ножки с овощами</option> 
+        <optgroup label="Мы вас не осуждаем..">
+          <option>Вегетарианская курочка в кляре</option>
+        </optgroup>
+      </select>
+      
+      <br><label><br><strong>Укажите свой адрес</strong></label>
+      <input type="text">
+      
+      
+      <br><label><strong>Ускорить доставку? (150р)</strong></label>
+      <input type="checkbox"><br>
+
+      <br><button>Отправить заявку</button>
+    </fieldset>
+    </form>
+  </main> 
+
+  <footer id= "footer_">
+      Почта для деловых предложений: <em>hotchicks@mail.com</em>
+      <nav>
+        <a href= https://www.youtube.com/watch?v=RUq0sZx6ssE&ab_channel=Janobot>Другие магазины</a>
+        <a href= https://www.youtube.com/watch?v=RUq0sZx6ssE&ab_channel=Janobot>Поддержка</a>
+      </nav>
+</footer>
+
+</body>
+</html>

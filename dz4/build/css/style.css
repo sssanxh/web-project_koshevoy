@@ -1,0 +1,90 @@
+
+#one {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px;
+    background-color: #5f2409;
+}
+
+#two {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0); 
+    background-color: #5f2409;
+    }
+
+body {
+    background: linear-gradient(#e9a514, #5f2409) fixed;
+    background-size: cover;
+  }
+
+  
+#section_1{
+    float: center;
+    text-align: center;
+    color:white;
+}   
+
+#section_2{
+    color:white;
+    text-align: left;
+    width: 25%;
+    color: rgb(0,0,0);
+    margin-left: 156px;
+}
+
+#main_ {
+    background-color: #d6ccc8;
+}
+  
+legend {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff
+
+}
+
+
+#fieldset_ {
+    background: rgb(48,213,200);
+    text-align: center;
+    position: relative;
+}
+
+#footer_{
+    background-color: #e9c1ae;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 700px;
+    text-align: right;
+}
+
+
+label {          
+    font-size: 20px;
+}
+
+
+a[href] {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type = time] {
+    background-color: rgb(37, 172, 161);
+}
+
+input[type = text] {
+    background-color: rgb(172, 147, 37);
+}
+
+input[type = checkbox] {
+    background-color: rgb(50, 234, 218);
+}
+
+select {
+    background-color: rgb(38, 228, 212);
+
+    padding: 5px;
+    margin: 5px;
+}
+
