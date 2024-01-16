@@ -1,0 +1,68 @@
+header{
+    position: relative;
+    z-index: 0;
+    background-color: red;
+}
+
+header::after{
+    content: ":";
+    position: absolute;
+    background-color: rgba(190, 203, 211, 0.61);
+    inset: 0;
+    z-index: -1;
+}
+
+body{
+    height: 2200px;
+}
+
+.box{
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    background-color: red;
+    color: gray;
+}
+
+#box1 {
+    position: relative;
+    inset: 10px 15px 20px;
+    background-color: blue;
+}
+
+.littleboxtext{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: grey;
+}
+
+#box5{
+    position: fixed;
+    top: 80px;
+    right: 10px;
+}
+
+
+.scrolltext{
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 150px;
+}
+
+
+dt {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+}
+
+#sp{
+    width: 100%;
+    height: 200px;
+}
